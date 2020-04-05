@@ -1,0 +1,20 @@
+{
+    "name": "Calculator",
+    "description": "Basic calculator for basic needs",
+    "version" : "1.0.0",
+    "manifest_version": 2,
+    "browser_action": {
+        "default_popup": "main.html",
+        "default_icon": "icon_128.png"
+    },
+    
+    "commands":{
+        "_exceute_browser_action":{
+            "suggested_key":{
+                "default": "Ctrl+Shift+C"
+            },
+        "description": "Opens our calculator"
+        }
+    },
+    "permissions": ["activeTab"]
+}
